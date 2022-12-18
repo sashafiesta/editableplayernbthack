@@ -1,8 +1,6 @@
 {
     "pack": {
-        "description": "editableplayernbthack resources",
-        "pack_format": 9,
-        "forge:resource_pack_format": 8,
-        "forge:data_pack_format": 9
+        "description": "Dummy pack for editableplayernbthack. It allows game to start with this mod, do not delete it, please!",
+        "pack_format": 7
     }
 }
