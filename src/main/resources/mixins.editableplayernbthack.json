@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.defthedev.editableplayernbthack.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MixinEntityDataAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "mixins.editableplayernbthack.refmap.json"
+}

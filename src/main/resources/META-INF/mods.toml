@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="editableplayernbthack"
+version="${file.jarVersion}"
+displayName="Editable Player NBT Hack"
+displayURL="https://github.com/sashafiesta/editableplayernbthack"
+displayTest="IGNORE_ALL_VERSION"
+authors="sashafiesta"
+description='''
+Removes the probably artificial limitation in the vanilla game of disallowing the editing of player NBT data.
+'''
+[[dependencies.editableplayernbthack]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.editableplayernbthack]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
